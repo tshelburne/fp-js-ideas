@@ -1,0 +1,15 @@
+{
+  "name": "helpers",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w -r should -r ./test/setup"
+  },
+  "author": "Tim Shelburne <shelburt02@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "should": "^4.6.4"
+  }
+}
