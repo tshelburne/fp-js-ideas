@@ -11,6 +11,14 @@ describe("Fn", function() {
 
 	argArray(1,2,3,4).should.eql([1,2,3,4]);
 
+	describe("flipping arguments", function() {
+		
+		it("will flip the first two arguments", function() {
+			Fn.flip(argArray)(2,1,3,4).should.eql([1,2,3,4]);
+		});
+
+	});
+
 	describe("cycling arguments", function() {
 		
 		it("cycles each argument to the left by default", function() {
